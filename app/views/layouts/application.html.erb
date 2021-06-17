@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Prag Prog Books Online Store</title>
+    <title>Pragprog Books Online Store</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,11 +10,9 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-
-
   <body>
     <header class="main">
-      <%= image_tag '/favicon.ico', alt: 'The Pragmatic Bookshelf' %>
+      <%= image_tag '/book-logo.jpeg', class: 'book-logo', alt: 'The Pragmatic Bookshelf' %>
       <h1><%= @page_title %></h1>
     </header>
     <section class="content">
